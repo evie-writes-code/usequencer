@@ -1,45 +1,45 @@
 #N canvas 719 23 541 821 10;
-#X obj 101 70 hradio 20 1 0 16 \$0-sequence_length_s \$0-sequence_length_r
-empty 0 -8 0 10 -262144 -1 -1 14;
-#X obj 101 50 cnv 15 40 40 empty \$0-vis_0 empty 20 12 0 14 -262144
+#X obj 101 69 hradio 20 1 0 16 \$0-sequence_length_s \$0-sequence_length_r
+empty 0 -8 0 10 -262144 -1 -1 15;
+#X obj 101 49 cnv 15 40 40 empty \$0-vis_0 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 141 50 cnv 15 40 40 empty \$0-vis_1 empty 20 12 0 14 -262144
+#X obj 141 49 cnv 15 40 40 empty \$0-vis_1 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 181 50 cnv 15 40 40 empty \$0-vis_2 empty 20 12 0 14 -262144
+#X obj 181 49 cnv 15 40 40 empty \$0-vis_2 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 221 50 cnv 15 40 40 empty \$0-vis_3 empty 20 12 0 14 -262144
+#X obj 221 49 cnv 15 40 40 empty \$0-vis_3 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 261 50 cnv 15 40 40 empty \$0-vis_4 empty 20 12 0 14 -262144
+#X obj 261 49 cnv 15 40 40 empty \$0-vis_4 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 301 50 cnv 15 40 40 empty \$0-vis_5 empty 20 12 0 14 -262144
+#X obj 301 49 cnv 15 40 40 empty \$0-vis_5 empty 20 12 0 14 -262144
 -66577 0;
-#X obj 341 50 cnv 15 40 40 empty \$0-vis_6 empty 20 12 0 14 -262144
+#X obj 341 49 cnv 15 40 40 empty \$0-vis_6 empty 20 12 0 14 -262144
 -66577 0;
-#X floatatom 105 55 5 0 0 0 - #0-0_r #0-0_s, f 5;
-#X floatatom 145 55 5 0 0 0 - #0-1_r #0-1_s, f 5;
-#X floatatom 185 55 5 0 0 0 - #0-2_r #0-2_s, f 5;
-#X floatatom 225 55 5 0 0 0 - #0-3_r #0-3_s, f 5;
-#X floatatom 265 55 5 0 0 0 - #0-4_r #0-4_s, f 5;
-#X floatatom 305 55 5 0 0 0 - #0-5_r #0-5_s, f 5;
-#X floatatom 345 55 5 0 0 0 - #0-6_r #0-6_s, f 5;
-#X obj 381 50 cnv 15 40 40 empty \$0-vis_7 empty 20 12 0 14 -233017
+#X floatatom 105 54 5 0 0 0 - #0-0_r #0-0_s, f 5;
+#X floatatom 145 54 5 0 0 0 - #0-1_r #0-1_s, f 5;
+#X floatatom 185 54 5 0 0 0 - #0-2_r #0-2_s, f 5;
+#X floatatom 225 54 5 0 0 0 - #0-3_r #0-3_s, f 5;
+#X floatatom 265 54 5 0 0 0 - #0-4_r #0-4_s, f 5;
+#X floatatom 305 54 5 0 0 0 - #0-5_r #0-5_s, f 5;
+#X floatatom 345 54 5 0 0 0 - #0-6_r #0-6_s, f 5;
+#X obj 381 49 cnv 15 40 40 empty \$0-vis_7 empty 20 12 0 14 -233017
 -66577 0;
-#X floatatom 385 55 5 0 0 0 - #0-7_r #0-7_s, f 5;
-#X obj 116 75 cnv 10 10 10 empty \$0-vis_step_0 empty 20 12 0 14 -260974
+#X floatatom 385 54 5 0 0 0 - #0-7_r #0-7_s, f 5;
+#X obj 116 74 cnv 10 10 10 empty \$0-vis_step_0 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 156 75 cnv 10 10 10 empty \$0-vis_step_1 empty 20 12 0 14 -260974
+#X obj 156 74 cnv 10 10 10 empty \$0-vis_step_1 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 196 75 cnv 10 10 10 empty \$0-vis_step_2 empty 20 12 0 14 -260974
+#X obj 196 74 cnv 10 10 10 empty \$0-vis_step_2 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 236 75 cnv 10 10 10 empty \$0-vis_step_3 empty 20 12 0 14 -260974
+#X obj 236 74 cnv 10 10 10 empty \$0-vis_step_3 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 276 75 cnv 10 10 10 empty \$0-vis_step_4 empty 20 12 0 14 -260974
+#X obj 276 74 cnv 10 10 10 empty \$0-vis_step_4 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 316 75 cnv 10 10 10 empty \$0-vis_step_5 empty 20 12 0 14 -260974
+#X obj 316 74 cnv 10 10 10 empty \$0-vis_step_5 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 356 75 cnv 10 10 10 empty \$0-vis_step_6 empty 20 12 0 14 -260974
+#X obj 356 74 cnv 10 10 10 empty \$0-vis_step_6 empty 20 12 0 14 -260974
 -66577 0;
-#X obj 396 75 cnv 10 10 10 empty \$0-vis_step_7 empty 20 12 0 14 -49933
+#X obj 396 74 cnv 10 10 10 empty \$0-vis_step_7 empty 20 12 0 14 -49933
 -66577 0;
 #X obj 57 253 f, f 4;
 #X obj 97 246 + 1;
@@ -207,10 +207,10 @@ be;
 #X obj 326 625 r \$0-velocity_s;
 #X obj 286 666 pack f f f, f 14;
 #X msg 286 728 0 \$1 \$2;
-#X text 104 35 VELOCITY;
-#X text 315 35 NOTE LENGTH;
-#X floatatom 156 35 5 0 0 0 - #0-velocity_r #0-velocity_s, f 5;
-#X floatatom 385 35 5 0 0 0 - #0-note_length_r #0-note_length_s, f
+#X text 104 33 VELOCITY;
+#X text 315 33 NOTE LENGTH;
+#X floatatom 156 33 5 0 0 0 - #0-velocity_r #0-velocity_s, f 5;
+#X floatatom 385 33 5 0 0 0 - #0-note_length_r #0-note_length_s, f
 5;
 #N canvas 225 359 450 300 initialize 0;
 #X obj 365 56 loadbang;
